@@ -1,3 +1,5 @@
+/* Farvepalette HEX koder: grøn = #7d9063, beige = #c6ae94, brun = #957250, grå-sort = #3f3832 */
+
 body, h1, h2, p, ul, li {
   margin: 0;
   padding: 0;
@@ -11,12 +13,40 @@ body {
   color: #333;
 }
 
+h1 {
+  font-family: 'Cooper Black', serif;
+}
+
+h2 {
+  font-family: 'Palatino Linotype', serif
+}
+
+p {
+  font-family: 'Calibri', sans-serif
+}
+
 /* Layout */
 header {
   background: #7d9063;
   color: #c6ae94;
-  padding: 1rem 0;
-  text-align: center;
+  text-align: left;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+#om_mig_billed {
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#kamera_ikon {
+  width: 50px;
+  height: 50px;
 }
 
 nav ul {
@@ -30,13 +60,13 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: #c6ae94;
+  color: #957250;
 }
 
 footer {
   text-align: center;
-  padding: 1rem;
-  background: #333;
-  color: #c6ae94;
+  /* padding: 1rem; */
+  background: #7d9063;
+  color: #3f3832;
 }
 
