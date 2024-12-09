@@ -13,6 +13,11 @@ body {
   color: #333;
 }
 
+.logo_img {
+  width: 50px;
+  height: auto;
+}
+
 h1 {
   font-family: 'Cooper Black', serif;
   font-size: 50px;
@@ -29,7 +34,6 @@ p {
 /* Layout */
 header {
   background: #7d9063;
-  color: #c6ae94;
   text-align: left;
 }
 
@@ -110,13 +114,13 @@ nav ul {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  padding: 0.5rem 0;
-  background: #c6ae94;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #957250;
+  font-family: Palatino Linotype;
+  font-size: 20px;
+  color: #c6ae94;
 }
 
 footer {
