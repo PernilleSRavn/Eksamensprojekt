@@ -1,0 +1,42 @@
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Generelle indstillinger */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.6;
+  background-color: #c6ae94;
+  color: #333;
+}
+
+/* Layout */
+header {
+  background: #7d9063;
+  color: #c6ae94;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  background: #c6ae94;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #c6ae94;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #c6ae94;
+}
+
