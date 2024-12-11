@@ -26,7 +26,7 @@ h1 {
 
 h2 {
   font-family: 'Palatino Linotype', serif
-  font-size: 30px
+  font-size: 30px;
   text-align: center;
 }
 
@@ -121,7 +121,7 @@ height: 50px;
 /*Her gør jeg så skyggerne og billederne bliver større når man holder musen henover billederne*/
 .project_img:hover {
   transform: scale(1.1); 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 4px 8px #957250; 
 }
 
 nav ul {
