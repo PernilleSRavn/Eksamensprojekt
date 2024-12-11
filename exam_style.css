@@ -21,10 +21,13 @@ body {
 h1 {
   font-family: 'Cooper Black', serif;
   font-size: 50px;
+  text-align: center;
 }
 
 h2 {
   font-family: 'Palatino Linotype', serif
+  font-size: 30px
+  text-align: center;
 }
 
 p {
@@ -47,6 +50,11 @@ img {
   height: auto;
   display: flex;
   justify-content: center;
+}
+
+.illustration_icon {
+width: 50px;
+height: 50px;
 }
 
 .kamera_ikon {
@@ -122,6 +130,42 @@ nav ul li a {
   font-size: 20px;
   color: #c6ae94;
 }
+
+
+ /* Kontakt formular style*/
+ input[type=text], select, textarea {
+  width: 100%; /* bredde af tekst boxe */
+  padding: 10px; /* højden af tekst boxe*/ 
+  border: 2px solid #3f3832; /* kanten rundt om tekst boxe */
+  border-radius: 6px; /* Runde hjørner */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Send besked knap style */
+input[type=submit] {
+  background-color: #3f3832;
+  color: #c6ae94;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Send besked knap hover style */
+input[type=submit]:hover {
+  background-color: #3f3832;
+  opacity: 50%;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #c6ae94;
+  padding: 20px;
+} 
 
 footer {
   text-align: center;
