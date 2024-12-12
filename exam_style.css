@@ -124,6 +124,7 @@ height: 50px;
   box-shadow: 0 4px 8px #957250; 
 }
 
+
 nav ul {
   list-style: none;
   display: flex;
@@ -138,6 +139,11 @@ nav ul li a {
   color: #c6ae94;
 }
 
+.forsidebillede {
+  width: 100px;
+  height: auto;
+
+}
 
  /* Kontakt formular style*/
  input[type=text], select, textarea {
@@ -146,7 +152,7 @@ nav ul li a {
   border: 2px solid #3f3832; /* kanten rundt om tekst boxe */
   border-radius: 6px; /* Runde hjørner */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
+  margin-top: 6px; /* top margin */
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
@@ -174,10 +180,12 @@ input[type=submit]:hover {
   padding: 20px;
 } 
 
+
 footer {
   text-align: center;
   /* padding: 1rem; */
   background: #7d9063;
   color: #3f3832;
 }
+
 
