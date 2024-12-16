@@ -183,7 +183,7 @@ input[type=submit]:hover {
   opacity: 50%;
 }
 
-/* Add a background color and some padding around the form */
+/* baggrundsfarve for bokse i kontaktformular */
 .container {
   border-radius: 5px;
   background-color: #c6ae94;
