@@ -6,14 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt</title>
     <link rel="stylesheet" href="exam_style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Rozha+One&display=swap" rel="stylesheet">
 </head>
     
-</body>
+<body>
 <header>
-    <nav class="nav bar">
+    <nav class="nav bar"> 
         <div class="image-row">
             <!-- Logo -->
             <a href="/index.html">
@@ -25,6 +22,7 @@
                 <li><a href="kontakt.html">Kontakt</a></li>
             </ul>
         </div>
+    </nav>
 </header>
 
 <main>
@@ -33,19 +31,20 @@
     <h2>Hvis du ønsker at komme i kontakt med mig, så send mig gerne en besked.</h2>
 
     <div class="container">
+
         <form action="action_page.php">
   
-        <label for="fname">Fulde navn</label>
-        <input type="text" id="fuldenavn" name="Fulde navn" placeholder="Fulde navn">
+        <label for="fuldenavn">Fulde navn</label>
+        <input type="text" id="fuldenavn" name="fuldenavn" placeholder="Fulde navn">
   
-        <label for="tlf">Telefon</label>
+        <label for="telefon">Telefon</label>
         <input type="text" id="telefon" name="telefon" placeholder="Telefon">
   
-        <label for="mail">Email</label>
-        <input type="text" id="Email" name="Email" placeholder="Email">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Email">
 
         <label for="besked">Besked</label>
-        <textarea id="subject" name="subject" placeholder="Skriv din besked her.." style="height: 100px;px"></textarea>
+        <textarea id="besked" name="subject" placeholder="Skriv din besked her.." style="height: 100px;"></textarea>
   
         <input type="submit" value="Send">
   
@@ -53,13 +52,14 @@
     </div>
 </main>   
    
+<footer class="footer">
+    <div class="footer-content">
+        <p>psravn23@gmail.com</p>
+        <p>+45 24604998</p> 
+    </div> 
+<p>&copy; 2024 PRcreations</p>
+</footer>
 
-<footer>
-        <footer class="footer">
-            <div class="footer-content">
-                <p>psravn23@gmail.com</p>
-                <p>+45 24604998</p> 
-            </div> 
-        <p>&copy; 2024 PRcreations</p>
-    </footer>
 </body>
+
+</html>
